@@ -128,11 +128,11 @@ def scrapout (request):
 
   a = {'Negative_Words': negl ,'Positive_Words': posl , 'Neutral_Words': neul }
   percentile_list = pd.DataFrame.from_dict(a, orient='index')
-  percentile_list.T.to_csv('G2_proto.csv',index = True)
+  percentile_list.T.to_csv('Neg_Pos_Neu_DATA.csv',index = True)
   percentile_list = percentile_list.transpose()
   print("\n\n")
   display(percentile_list)
-  df = pd.read_csv('G2_proto.csv')
+  df = pd.read_csv('Neg_Pos_Neu_DATA.csv')
 
   json_records = df.reset_index().to_json(orient ='records')
   table_data = []
@@ -253,11 +253,11 @@ def textscrapout (request):
 
   a = {'Negative_Words': negl ,'Positive_Words': posl , 'Neutral_Words': neul }
   percentile_list = pd.DataFrame.from_dict(a, orient='index')
-  percentile_list.T.to_csv('G2_proto.csv',index = True)
+  percentile_list.T.to_csv('Neg_Pos_Neu_DATA.csv',index = True)
   percentile_list = percentile_list.transpose()
   
 
-  df = pd.read_csv('G2_proto.csv')
+  df = pd.read_csv('Neg_Pos_Neu_DATA.csv')
 
   json_records = df.reset_index().to_json(orient ='records')
   table_data = []

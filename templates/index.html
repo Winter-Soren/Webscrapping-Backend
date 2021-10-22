@@ -12,13 +12,13 @@
 </head>
 <body>
     <div class="container">
-        <form action="scrapout" method="POST" >{% csrf_token %}
+        <form action="scrapout" method="POST" target="_blank" >{% csrf_token %}
             <label class="form-label">1) URL</label>
             <input type="url" name="url" class="form-control" id="exampleFormControlInput1" placeholder="http://thunderbolt.org"><br>
             <button type="submit" class="btn btn-primary">Scrap It Out (Web)</button>
         </form><br>
 
-        <form action="textscrapout" method="POST" >{% csrf_token %}
+        <form action="textscrapout" method="POST" target="_blank" >{% csrf_token %}
             <label class="form-label">2) TEXT</label>
             <input type="text" name="text" class="form-control" id="exampleFormControlInput1" placeholder="example1, example2, example3"><br>
             <button type="submit" class="btn btn-primary">Scrap It Out (Text)</button>
@@ -32,3 +32,7 @@
 
 </body>
 </html>
+<!-- <script>
+    const newtab = getElementbyClass('btn btn-primary');
+
+</script> -->
