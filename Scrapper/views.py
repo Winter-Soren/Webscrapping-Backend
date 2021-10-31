@@ -121,7 +121,7 @@ def scrapout (request):
   a_dictionary["Negative"] = len(negl)
   max_key = max(a_dictionary, key=a_dictionary.get)
   print("\n\n")
-  vibe_render = "Overall Vibe is "+str(max_key)+" inclined towards "+ list(a_dictionary.keys())[list(a_dictionary.values()).index(sorted(a_dictionary.values())[-2])]
+  vibe_render = "Overall Vibe of Scraped Data is "+str(max_key)+" inclined towards "+ list(a_dictionary.keys())[list(a_dictionary.values()).index(sorted(a_dictionary.values())[-2])]
   print(vibe_render)
 
   # TODO >_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_>_
@@ -244,7 +244,7 @@ def textscrapout (request):
   a_dictionary["Negative"] = len(negl)
   max_key = max(a_dictionary, key=a_dictionary.get)
   print("\n\n")
-  vibe_render = "Overall Vibe is "+str(max_key)+" inclined towards "+ list(a_dictionary.keys())[list(a_dictionary.values()).index(sorted(a_dictionary.values())[-2])]
+  vibe_render = "Overall Vibe of Scraped Data is "+str(max_key)+" inclined towards "+ list(a_dictionary.keys())[list(a_dictionary.values()).index(sorted(a_dictionary.values())[-2])]
   print(vibe_render)
 
 
