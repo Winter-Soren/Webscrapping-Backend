@@ -59,11 +59,11 @@ Irfan Siddavatam ( irfansiddavatam@somaiya.edu )<br>
 Ashwini Dalvi ( ashwinidalvi@somaiya.edu )
 
 ### Members:
-| Sr No. |     Name      |     e-mail                | git-profile                |
-| ------ | ------------- | ------------------------- | -----------                             |
-| 1.     | SOHAM BHOIR   | soham.bhoir@somaiya.edu   | [ThunderBolt-OS](https://github.com/ThunderBolt-OS)                                                                           
-| 2.     | ANUSHKA BODKE | anushka.bodke@somaiya.edu | p2                             |
-| 3.     | NEVIL JAIN    | nevil.jain@somaiya.edu    | p3                        |
-| 4.     | ANANYA WARIOR | ananya.warior@somaiya.edu | p4                           |
-| 5.     | SHUBHAM VARMA | shubham.varma@somaiya.edu | p5                            |
-| 6.     | AMAAN SHAIKH  | amaan.shaikh@somaiya.edu  | p6          |
+| Sr No. |     Name      |     e-mail                | git-profile                
+| ------ | ------------- | ------------------------- | -----------                             
+| 1.     | SOHAM BHOIR   | soham.bhoir@somaiya.edu   | [ThunderBolt-OS](https://github.com/ThunderBolt-OS)|        |               |                                                  
+| 2.     | ANUSHKA BODKE | anushka.bodke@somaiya.edu | [AnushkaBodke](https://github.com/AnushkaBodke)        |        |               |  
+| 3.     | NEVIL JAIN    | nevil.jain@somaiya.edu    | [Nevil05](https://github.com/Nevil05)        
+| 4.     | ANANYA WARIOR | ananya.warior@somaiya.edu | [ananyawarior](https://github.com/ananyawarior)        |                 
+| 5.     | SHUBHAM VARMA | shubham.varma@somaiya.edu | [shubham17varma](https://github.com/shubham17varma)|        |               |    
+| 6.     | AMAAN SHAIKH  | amaan.shaikh@somaiya.edu  | [Amaan-8808](https://github.com/Amaan-8808)        
