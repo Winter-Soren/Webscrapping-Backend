@@ -1,5 +1,5 @@
 
-from django.conf.urls import url
+# from django.conf.urls import url
 from django.http import response
 from Web_Scrapper import urls
 
@@ -14,7 +14,7 @@ from collections import Counter
 import pandas as pd
 import re
 import nltk
-from IPython.display import display
+# from IPython.display import display
 import string
 import matplotlib.pyplot as plt
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
@@ -22,6 +22,7 @@ from django.shortcuts import render
 import io
 import urllib, base64
 import json
+from nltk.corpus import wordnet as wn
 
 
 
@@ -88,7 +89,7 @@ def scrapout (request):
           g.append([i,f.count(i)])
           h.append(i)
   emote_list = []
-  with open('Scrapper\emot.txt','r') as files:
+  with open('Scrapper/emot.txt','r') as files:
     for line in files:
       final_line = line.replace("\n",'').replace(",",'').replace("'",'').strip()
       word,emotions = final_line.split(':')
@@ -129,7 +130,7 @@ def scrapout (request):
   percentile_list.T.to_csv('Neg_Pos_Neu_DATA.csv',index = True)
   percentile_list = percentile_list.transpose()
   print("\n\n")
-  display(percentile_list)
+  # display(percentile_list)
   df = pd.read_csv('Neg_Pos_Neu_DATA.csv')
 
   json_records = df.reset_index().to_json(orient ='records')
@@ -210,7 +211,7 @@ def textscrapout (request):
   print(list(set(h)))
   print(len(h))
   emote_list = []
-  with open('Scrapper\emot.txt','r') as files:
+  with open('Scrapper/emot.txt','r') as files:
     for line in files:
       final_line = line.replace("\n",'').replace(",",'').replace("'",'').strip()
       word,emotions = final_line.split(':')
